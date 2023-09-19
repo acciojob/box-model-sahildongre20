@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+#container{
+	background-color: #d2d3d3ff;
+	width:600px;
+	height:300px;
+	border-radius: 70px;
+	border: 10px solid black;
+	text-align:center;
+	margin:auto;
+}
+.circle{
+	margin:60px 5px;
+	display:inline-block;
+	width: 150px;
+	height:150px;
+	border-radius: 80px;
+}
+.circle:first-child{
+	background-color:green;
+}
+.circle:nth-child(2){
+	background-color:yellow;
+}
+.circle:last-child{
+	background-color:red;
+}
